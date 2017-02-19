@@ -1,0 +1,78 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <style type="text/css">
+    body { padding:0px 5px 5px 5px; background-color:rgb(244,244,244); -moz-user-select: none; }
+    body,div,p,h1,h2,h3,ul,ol,a,td { font: 11px arial,sans-serif; color:rgb(0,0,0); }
+    input { border:1px solid #aaa;vertical-align: middle;}
+    h1 { font-size:16px; }
+    h2 { font-size:14px; }
+    h1,h2,h3 { padding:0px; margin:10px 0px 10px 10px; }
+    .lnk {color:blue;text-decoration:underline;cursor:pointer;}
+  </style>
+</head>
+<body>
+<div style="margin:auto; text-align: center; ">
+  <div style="text-align: left;">
+    <table width="100%" style="margin:0px;padding:0px;border:0px;">
+      <tr>
+        <td style="text-align:right;"><span id="instant"  class="lnk">"`^oh_instant_settings"`^</span></td>
+        <td style="text-align:left;"><span id="engines" class="lnk">"`^oh_search_engines"`^</span></td>
+      </tr>
+      <tr>
+        <td style="text-align:right;"><span id="saveloc" class="lnk">"`^oh_image_save_settings"`^</span></td>
+        <td style="text-align:left;"><span id="maplocs" class="lnk">"`^oh_my_map_locations"`^</span></td>
+      </tr>
+      <tr>
+        <td style="text-align:right;"><span id="misc" class="lnk">"`^oh_misc_settings"`^</span></td>
+        <td style="text-align:left;"><span id="findbl" class="lnk">"`^oh_text_search_settings"`^</span></td>
+      </tr>
+      <tr>
+        <td style="text-align:right;"><span id="preview" class="lnk">"`^oh_preview_settings"`^</span></td>
+        <td style="text-align:left;"><span id="regex" class="lnk">"`^oh_text_recognition_rules"`^</span></td>
+      </tr>
+      <tr>
+        <td style="text-align:right;"><span id="shortcuts" class="lnk">"`^oh_keyboard_shortcuts"`^</span></td>
+        <td style="text-align:left;"><span id="smartbox" class="lnk">"`^oh_smart_searchbox"`^</span></td>
+      </tr>
+    </table>
+    <hr>
+    <input id="noinstant" type="checkbox" /> "`^disable_all"`^ <span style="color:red;font-weight:bold;">"`^oh_instant"`^</span> "`^oh_features"`^ <span class="lnk" msg=""`^oh_msg_1"`^">?</span> <br />
+    <input id="nosuggest" type="checkbox" /> "`^oh_do_not_show_suggestions"`^ <span class="lnk" msg=""`^oh_msg_2"`^">?</span> <br />
+    <input id="nosmart" type="checkbox" /> "`^oh_do_not_show_the_smart_searchbox"`^ <span class="lnk" msg=""`^oh_msg_3"`^">?</span> <br />
+    <input id="nodnd" type="checkbox" /> "`^oh_no_drag_n_drop_at_all"`^ <span class="lnk" msg=""`^oh_msg_4"`^">?</span> <br />
+    <input id="autocopy" type="checkbox" /> "`^oh_autocopy_on_selection"`^ <span class="lnk" msg=""`^oh_msg_5"`^">?</span> <br />
+    MIDDLEPASTE
+    <input id="useSF" type="checkbox" disabled=true /> "`^oh_shop1"`^ <span class="lnk" msg=""`^oh_msg_10"`^">?</span> <br />
+    <!--
+    <input id="useApp" type="checkbox" /> "`^oh_apps"`^ <span class="lnk" msg=""`^oh_msg_apps"`^">?</span> <br />
+    -->
+    <input id="autorefresh" type="checkbox" /> "`^oh_autorefresh"`^ <span class="lnk" msg=""`^oh_msg_8"`^">?</span> <br />
+    <input id="reshowopts" type="checkbox" /> "`^oh_reshowopts"`^ <span class="lnk" msg=""`^oh_msg_9"`^">?</span> <br />
+    <div style="text-align:center;margin-top:3px;">
+      <a href="http://mingyi.org/FastestSearch/faq.html" target="_blank" style="color:rgb(170,0,0);">"`^oh_how_to_disable_other_features"`^</a><br>
+      <span id="stopwork" class="lnk" style="color:rgb(70,170,0);font-weight:bold;" msg=""`^oh_msg_7"`^">"`^oh_fs_stopped_working"`^</span>
+    </div>
+    <hr>
+    <div style="text-align:center;">
+      <span id="manualadd" class="lnk" style="font-weight:bold;">"`^oh_add_engine_for_current_page"`^</span> <span class="lnk" style="color:red;font-weight:bold;" msg=""`^oh_msg_6"`^">?!</span>
+      <hr>
+      <span id="export" class="lnk">"`^oh_export_all_settings"`^</span>
+      <span id="import" class="lnk" style="margin-left:10px;">"`^oh_import_settings"`^</span>
+    </div>
+    <hr>
+    <div style="text-align:center;">
+      <span class="lnk" style="color:rgb(170,0,0);margin-left:5px;" msg=""`^oh_aboutmsg"`^">"`^oh_about"`^</span>
+      <a href="http://mingyi.org/FastestSearch" target="_blank" style="color:rgb(170,0,0);margin-left:5px;">"`^oh_site"`^</a>
+      <a href="https://addons.mozilla.org/en-US/firefox/addon/fastest-search/versions/" target="_blank" style="color:rgb(170,0,0);margin-left:5px;">"`^oh_lastest_version"`^</a>
+      <a href="http://youtube.com/user/fastestsearch/" style="color:rgb(170,0,0);margin-left:5px;" target="_blank">"`^oh_demos"`^</a>
+      <a href="http://youtube.com/youngpianist" target="_blank" style="color:rgb(255,0,0);margin-left:5px;">"`^oh_music"`^</a>
+    </div>
+  </div>
+  <div style="text-align: center; margin-top:10px;">
+    <button type="button" id="update" style="margin-right: 10px;">"`^button_save"`^</button>
+    <button type="button" id="close">"`^button_cancel"`^</button>
+  </div>
+</div>
+</body>
+</html>

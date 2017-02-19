@@ -1,0 +1,46 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <style type="text/css">
+    body { padding:5px; background-color:rgb(244,244,244); -moz-user-select: none; }
+    body,div,p,h1,h2,h3,ul,ol,a,td { font: 11px arial,sans-serif; color:rgb(0,0,0); }
+    input, textarea { border:1px solid #aaa;vertical-align: middle;}
+    h1 { font-size:16px; }
+    h2 { font-size:14px; }
+    h1,h2,h3 { padding:0px; margin:10px 0px 10px 10px; }
+    .lnk {color:blue;text-decoration:underline;cursor:pointer;}
+  </style>
+</head>
+<body>
+<div style="margin:auto; text-align: center; ">
+  <div style="text-align: left;">
+    <input id="instantub" type="checkbox" /> "`^it_instant_url_bar"`^ <span class="lnk" msg=""`^it_msg_1"`^">?</span> <br />
+    <input id="nocolon" type="checkbox" /> "`^it_no_required_in_url_bar_search_bar"`^ <span class="lnk" msg=""`^it_msg_2"`^">?</span> <br />
+    <input id="typedonly" type="checkbox" /> "`^it_search_only_what_you_typed"`^ <span class="lnk" msg=""`^it_msg_3"`^">?</span> <br />
+      <span style="margin-left:22px;">"`^it_url_bar_engine_shortcut"`^ <input id="instantsc" type="text" style="width:35px;" /></span> <span class="lnk" msg=""`^it_msg_4"`^">?</span><br />
+    <hr>
+    <span style="margin-left:4px;"> "`^it_instant_uses_search_results_from"`^</span> <span class="lnk" msg=""`^it_msg_5"`^">?</span><br />
+      <input id="instantres-his" type="radio" name="bi" style="margin-left:22px;">"`^it_history_bookmark"`^<br>
+      <input id="instantres-eng" type="radio" name="bi" style="margin-left:22px;">"`^it_url_bar_engine_above_default_google"`^<br>
+      <input id="instantres-both" type="radio" name="bi" style="margin-left:22px;">"`^it_history_bookmark_url_bar_engine"`^<br>
+    <hr>
+    <span style="margin-left:4px;"> "`^it_allow_instant_on"`^</span> <span class="lnk" msg=""`^it_msg_6"`^">?</span><br />
+      <input id="instant4engine-all" type="radio" name="ai" style="margin-left:22px;">"`^it_all_engines"`^<br>
+      <input id="instant4engine-none" type="radio" name="ai" style="margin-left:22px;">"`^it_no_engine"`^<br>
+      <input id="instant4engine-per" type="radio" name="ai" style="margin-left:22px;">"`^it_per_engine_setting"`^<br>
+    <hr>
+    <span style="margin-left:0px;">"`^it_add_page_to_history_after"`^ <input id="instanthistorywait" type="text" style="width:42px;" /> "`^it_second"`^</span> <span class="lnk" msg=""`^it_msg_7"`^">?</span><br />
+    <span style="margin-left:0px;">"`^it_min_instant_load_delay"`^ <input id="mininstantwait" type="text" style="width:42px;" /> "`^it_second"`^</span> <span class="lnk" msg=""`^it_msg_8"`^">?</span><br />
+    <span style="margin-left:0px;">"`^it_max_instant_load_delay"`^ <input id="maxinstantwait" type="text" style="width:42px;" /> "`^it_second"`^</span> <span class="lnk" msg=""`^it_msg_9"`^">?</span><br />
+    <span style="margin-left:0px;">"`^it_decide_the_above_3_values_for_me"`^ </span> <span class="lnk" msg=""`^it_msg_10"`^">"`^it_how"`^</span><br />
+      <span style="margin-left:10px;">"`^it_type_i_m_testing_my_speed_below"`^<br />
+      <span style="margin-left:10px;"><input id="speedtest" type="text" style="width:200px;margin-top:5px;" /></span><br />
+      <span style="margin-left:20px;"><a id="fillvals" href="javascript:void(0)">"`^it_decide_values"`^</a> <a href="javascript:void(0)" style="margin-left:20px;" onclick="document.getElementById('speedtest').value='';starttime=endtime=null;">"`^it_clear_box_above"`^</a></span><br />
+  </div>
+  <div style="margin-top:10px;">
+    <button type="button" id="update" style="margin-right: 10px;">"`^button_save"`^</button>
+    <button type="button" id="close">"`^button_cancel"`^</button>
+  </div>
+</div>
+</body>
+</html>

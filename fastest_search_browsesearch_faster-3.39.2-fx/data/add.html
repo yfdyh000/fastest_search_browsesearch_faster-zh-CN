@@ -1,0 +1,50 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <style type="text/css">
+    body { padding:5px; background-color:rgb(244,244,244); -moz-user-select: none; }
+    body,div,p,h1,h2,h3,ul,ol,a,td { font: 11px arial,sans-serif; color:rgb(0,0,0); }
+    input { border:1px solid #aaa;vertical-align: middle;}
+    h1 { font-size:16px; }
+    h2 { font-size:14px; }
+    h1,h2,h3 { padding:0px; margin:10px 0px 10px 10px; }
+    input { width:400px; margin:2px; }
+    .lnk {color:blue;text-decoration:underline;cursor:pointer;}
+  </style>
+</head>
+<body>
+<div style="margin:auto; width:100%; text-align:center; ">
+  <h1 style="margin-bottom:20px;">"`^ah_add_engine"`^ <span class="lnk" style="font-size:12px;" msg=""`^ah_msg_1"`^">"`^ah_add_manually"`^</span></h1>
+  <table>
+    <tr><td>Name<span style="color:red">*</span>:</td><td><input id="name" type="text" value="NAME" /></td></tr>
+    <tr><td><span class="lnk" msg=""`^ah_msg_2"`^">URL</span><span style="color:red">*</span>:</td><td><input id="page" type="text" value="PAGE" /></td></tr>
+    <tr><td><span class="lnk" msg=""`^ah_msg_3"`^">"`^ah_query"`^</span><span style="color:red">*</span>:</td><td><input id="qstr" type="text" value="QSTR" /></td></tr>
+    <tr><td></td><td>"`^ah_send_query_using"`^ &nbsp;<input id="querytype-get" type="radio" name="qtype" style="width:10px" GETCHECKED>GET &nbsp;&nbsp;&nbsp;&nbsp;<input id="querytype-post" type="radio" name="qtype" style="width:10px" POSTCHECKED>POST <span class="lnk" msg=""`^ah_msg_4"`^">?</span></td></tr>
+    <tr><td></td><td>"`^ah_key"`^ <input id="testq" type="text" style="width:210px" /> <button id="testsub">"`^button_go"`^</button></td></tr>
+    <tr><td>Icon: <img id="fav" src="FAVICON" style="width:16px;height:16px;" /></td><td>"`^ah_icon"`^ (<span class="lnk" msg=""`^ah_msg_5"`^">"`^ah_hint"`^</span>): </td></tr>
+    <tr><td></td><td><input id="favicon" type="text" value="" onchange="document.getElementById('fav').src=this.value" /></td></tr>
+    <tr><td><span class="lnk" msg=""`^ah_msg_6"`^">Suggest:</td><td><input id="suggest" type="text" value="SUGGEST" /></td></tr>
+    <tr>
+      <td><span class="lnk" msg=""`^ah_msg_7"`^">"`^ah_category"`^</span><span style="color:red">*</span>:</td>
+      <td>
+        <input id="category" type="text" value="CATEGORY" style="width:180px;" />
+        <span class="lnk" msg=""`^ah_msg_8"`^">"`^ah_the_auto_detected_categories_explained"`^</span>
+      </td>
+    </tr>
+    <tr><td><span class="lnk" msg=""`^ah_msg_9"`^">"`^ah_shortcut"`^</span><span style="color:red">*</span>:</td>
+      <td>
+        <input id="shortcut" init="INITVALUE" type="text" value="SHORTCUT" style="width:40px;" maxlength=4 />
+        <span class="lnk" msg=""`^ah_msg_10"`^">"`^ah_usage_rank"`^</span>
+        <input id="rank" type="text" value="RANK" style="width:30px;" />
+        <input id="instant" type="checkbox" style="width:10px;" CHECKED /> "`^ah_use_instant_preview"`^ (<span class="lnk" msg=""`^ah_msg_11"`^">?</span>)
+        <input id="oldsc" type="hidden" value="OLDSC" />
+      </td>
+    </tr>
+  </table>
+  <div style="margin-top:20px;">
+    <button type="button" id="add" style="margin-right: 20px;">"`^button_add_it_now"`^</button>
+    <button type="button" id="cancel">"`^button_cancel"`^</button>
+  </div>
+</div>
+</body>
+</html>

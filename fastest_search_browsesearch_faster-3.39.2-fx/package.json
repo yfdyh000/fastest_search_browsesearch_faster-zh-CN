@@ -1,0 +1,13 @@
+{
+    "name": "fastestsearch", 
+    "license": "Copyrighted. Any use of source code for any other kind of software project/product is strictly prohibited without prior consent from author Mingyi Liu",
+    "author": "Mingyi Liu",
+    "unpack": false,
+    "main": "lib/main.js",
+    "version": "3.39.2",
+    "permissions": {"private-browsing": true},
+    "title": "Fastest Search",
+    "fullName": "Fastest Search",
+    "id": "fastestsearch@mingyi.org",
+    "description": "Fastest Search Options are accessed through its icon. If you can't find the icon, or have other questions (like how to enable/disable a feature), please go to http://mingyi.org/FastestSearch/1stinstall.html\n\nUse mingyiliu@yahoo.com to contact me.\n\n"
+}

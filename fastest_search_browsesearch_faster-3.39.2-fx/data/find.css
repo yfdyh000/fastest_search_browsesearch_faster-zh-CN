@@ -1,0 +1,69 @@
+::-moz-selection { color: gold !important;  background: red !important; }
+.fsCountDiv, .fsOptsDiv, .fsCountDivCached {
+  -moz-user-focus:ignore;
+  width: auto;
+  position: fixed;
+  z-index: 2147483647;
+  margin: 0px;
+  left: 15px;
+  max-width:800px;
+  overflow: hidden;
+}
+.fsCountDiv, .fsCountDivCached {
+  font: 14px verdana,sans-serif;
+  font-weight: bold;
+  background-color: rgba(255,88,88,0.8);
+  color: rgb(255,255,0);
+  height: 20px;
+  padding: 5px;
+  top: 0px;
+}
+.fsCountDivCached {
+  background-color: rgb(233,233,0);
+  color: rgb(115,115,115);
+}
+.fsOptsDiv {
+  font: 10px verdana,sans-serif;
+  background-color: rgba(255,188,188,0.8);
+  color: rgb(0,0,255);
+  height: 14px;
+  padding: 2px;
+  top: 30px;
+}
+.fsTmpSelectDiv {
+  -moz-user-focus:ignore;
+  background-color: rgba(0,0,255,0.6);
+  color: rgb(255,255,0);
+  font: 10px verdana,sans-serif;
+  font-weight: bold;
+  text-align: center;
+  position: fixed;
+  padding: 0px;
+  z-index: 2147483647;
+  border: 0px;
+  margin: 0px;
+}
+.fsScrollDiv {
+  background-color: rgba(66,66,66,0.8);
+  width: 15px;
+  position: fixed;
+  z-index: 2147483645;
+  padding: 0px;
+  margin: 0px;
+  top: 0px;
+  left: 0px;
+}
+.fsClickDivHilite, .fsClickDivLolite, .fsClickDivHiHilite {
+  width: 15px;
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+  left: 0px;
+}
+.fsClickDivHiHilite { background-color:rgb(255, 20, 147); z-index: 2147483647; }
+.fsClickDivHilite { background-color:rgb(30,200,255); z-index: 2147483646; }
+.fsClickDivLolite { background-color:rgb(180,180,50); z-index: 2147483645;}
+input.fsKeyFound, textarea.fsKeyFound {
+  border: 2px solid red !important;
+  background-color: rgba(255, 255, 0, 0.5) !important;
+}
